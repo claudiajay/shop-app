@@ -1,79 +1,278 @@
 <!DOCTYPE html>
-<html >
-<head>
-  <title>ShopApp</title>
+<html>
+  <head>
+    <title>ShopApp</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/home-page.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/new-arrivals.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <div class="text-logo">SHOP.CO</div>
+      </div>
+      <div class="mid-section">
+        <div class="list">Shop</div>
+        <div class="list">OnSale</div>
+        <div class="list">New Arrivals</div>
+        <div class="list">Brands</div>
 
-  <link rel="stylesheet" href="styles/header.css">
-  <link rel="stylesheet" href="styles/home-page.css">
-  <link rel="stylesheet" href="styles/general.css">
-</head>
-<body>
-  <div class="header">
-    <div class="left-section">
-      <div class="text-logo">SHOP.CO</div>
-    </div>
-    <div class="mid-section">
-      <div class="list">Shop</div>
-      <div class="list">OnSale</div>
-      <div class="list">New Arrivals</div>
-      <div class="list">Brands</div>
+        <input
+          class="search-bar"
+          type="text"
+          placeholder="Search for products..."
+        />
+      </div>
 
-      <input class="search-bar" type="text" placeholder="Search for products...">
-    </div>
-
-    <div class="right-section">
-      <img class="header-icons" src="icons/Cart.png">
-      <img class="header-icons" src="icons/Avatar.png">
-    </div>
-  </div>
-
-  <div class="home-page">
-    <div class="word-section">
-      <div class="big-text">FIND CLOTHES THAT MATCHES YOUR STYLE</div>
-      <div class="small-text">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</div>
-      <button class="shop-btn">Shop Now</button>
-
-      <div class="stats">
-        <div class="int-brands">
-          <div class="number">200+</div>
-          <div class="label">International Brands</div>
-        </div>
-        <div class="hq-products">
-          <div class="number">2,000+</div>
-          <div class="label">High-Quality Products</div>
-        </div>
-        <div class="happy-customers">
-          <div class="number">30,000+</div>
-          <div class="label">Happy Customers</div>
-        </div>
+      <div class="right-section">
+        <img class="header-icons" src="icons/Cart.png" />
+        <img class="header-icons" src="icons/Avatar.png" />
       </div>
     </div>
 
-    <div class="picture-section">
-      <img class="home-page-pic" src="images/homepg-pic.jpg">
+    <div class="home-page">
+      <div class="word-section">
+        <div class="big-text">FIND CLOTHES THAT MATCHES YOUR STYLE</div>
+        <div class="small-text">
+          Browse through our diverse range of meticulously crafted garments,
+          designed to bring out your individuality and cater to your sense of
+          style.
+        </div>
+        <button class="shop-btn">Shop Now</button>
+
+        <div class="stats">
+          <div class="int-brands">
+            <div class="number">200+</div>
+            <div class="label">International Brands</div>
+          </div>
+          <div class="hq-products">
+            <div class="number">2,000+</div>
+            <div class="label">High-Quality Products</div>
+          </div>
+          <div class="happy-customers">
+            <div class="number">30,000+</div>
+            <div class="label">Happy Customers</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="picture-section">
+        <img class="home-page-pic" src="images/homepg-pic.jpg" />
+      </div>
     </div>
 
-   
-  </div>
+    <div class="designer-list">
+      <img class="brand" src="brands/versace.png" />
+      <img class="brand" src="brands/zara.png" />
+      <img class="brand" src="brands/gucci.png" />
+      <img class="brand" src="brands/prada.png" />
+      <img class="brand" src="brands/klein.png" />
+    </div>
 
-  <div class="designer-list">
-    <img class="brand" src="brands/versace.png">
-    <img class="brand" src="brands/zara.png">
-    <img class="brand" src="brands/gucci.png">
-    <img class="brand" src="brands/prada.png">
-    <img class="brand" src="brands/klein.png">
-  </div>
+    <div class="main-section">
+      <div class="title">NEW ARRIVALS</div>
+      <div class="clothes-grid">
+        <div class="cloth-preview">
+          <div class="cloth-image">
+            <img class="clothing-pic" src="images/shirt.png" />
+          </div>
+          <div class="cloth-desc">T-shirt with Tape Details</div>
+          <div class="rating-section">
+            <div class="star-rating">
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="h-star" src="images/half-star.png" />
+            </div>
 
-  <div class="new-arrivals">
-    
-  </div>
-  
-</body>
+            <div class="number-rating">4.5/5</div>
+          </div>
+          <div class="price-section">
+            <div class="price">$120</div>
+          </div>
+        </div>
+
+        <div class="cloth-preview">
+          <div class="cloth-image">
+            <img class="clothing-pic" src="images/jeans.png" />
+          </div>
+          <div class="cloth-desc">Skinny Fit Jeans</div>
+          <div class="rating-section">
+            <div class="star-rating">
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="h-star" src="images/half-star.png" />
+            </div>
+
+            <div class="number-rating">3.5/5</div>
+          </div>
+          <div class="price-section">
+            <div class="price">$240</div>
+            <div class="discount">$260</div>
+            <button class="percentage">-20%</button>
+          </div>
+        </div>
+
+        <div class="cloth-preview">
+          <div class="cloth-image">
+            <img class="clothing-pic" src="images/longsleeve.png" />
+          </div>
+          <div class="cloth-desc">Checkered Shirt</div>
+          <div class="rating-section">
+            <div class="star-rating">
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="h-star" src="images/half-star.png" />
+            </div>
+
+            <div class="number-rating">4.5/5</div>
+          </div>
+          <div class="price-section">
+            <div class="price">$180</div>
+          </div>
+        </div>
+
+        <div class="cloth-preview">
+          <div class="cloth-image">
+            <img class="clothing-pic" src="images/shortsleeve.png" />
+          </div>
+          <div class="cloth-desc">Sleeve Striped T-shirt</div>
+          <div class="rating-section">
+            <div class="star-rating">
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="h-star" src="images/half-star.png" />
+            </div>
+
+            <div class="number-rating">4.5/5</div>
+          </div>
+
+          <div class="price-section">
+            <div class="price">$130</div>
+            <div class="discount">$160</div>
+            <button class="percentage">-30%</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="button"><button class="view-btn">View All</button></div>
+
+      <hr style="border: 1px solid rgba(0, 0, 0, 0, 0, 1)" />
+    </div>
+
+    <div class="main-section">
+      <div class="title">TOP SELLING</div>
+      <div class="clothes-grid">
+        <div class="cloth-preview">
+          <div class="cloth-image">
+            <img class="clothing-pic" src="images/green-s.png" />
+          </div>
+          <div class="cloth-desc">Vertical Striped Shirt</div>
+          <div class="rating-section">
+            <div class="star-rating">
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+            </div>
+
+            <div class="number-rating">5.0/5</div>
+          </div>
+
+          <div class="price-section">
+            <div class="price">$212</div>
+            <div class="discount">$232</div>
+            <button class="percentage">-20%</button>
+          </div>
+        </div>
+
+        <div class="cloth-preview">
+          <div class="cloth-image">
+            <img class="clothing-pic" src="images/orange-s.png" />
+          </div>
+          <div class="cloth-desc">Courage Graphic T-shirt</div>
+          <div class="rating-section">
+            <div class="star-rating">
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+            </div>
+
+            <div class="number-rating">4.0/5</div>
+          </div>
+          <div class="price-section">
+            <div class="price">$145</div>
+          </div>
+        </div>
+
+        <div class="cloth-preview">
+          <div class="cloth-image">
+            <img class="clothing-pic" src="images/shorts.png" />
+          </div>
+          <div class="cloth-desc">Loose Fit Bermuda Shorts</div>
+          <div class="rating-section">
+            <div class="star-rating">
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+            </div>
+
+            <div class="number-rating">3.0/5</div>
+          </div>
+          <div class="price-section">
+            <div class="price">$80</div>
+          </div>
+        </div>
+
+        <div class="cloth-preview">
+          <div class="cloth-image">
+            <img class="clothing-pic" src="images/jeans-black.png" />
+          </div>
+          <div class="cloth-desc">Faded Skinny Jeans</div>
+          <div class="rating-section">
+            <div class="star-rating">
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="star" src="images/star.png" />
+              <img class="h-star" src="images/half-star.png" />
+            </div>
+
+            <div class="number-rating">4.5/5</div>
+          </div>
+
+          <div class="price-section">
+            <div class="price">$210</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="button"><button class="view-btn">View All</button></div>
+    </div>
+  </body>
 </html>
